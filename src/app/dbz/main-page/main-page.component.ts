@@ -11,7 +11,7 @@ export class MainPageComponent  {
   personajes: Personaje[] = [
     {
       nombre: 'Goku',
-      poder: 1000
+      poder: 10000
     },
     {
       nombre: 'Vegeta',
