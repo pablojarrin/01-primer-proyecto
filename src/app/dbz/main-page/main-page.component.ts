@@ -21,31 +21,11 @@ export class MainPageComponent  {
       nombre: 'Piccolo',
       poder: 8000
     }
-  ]
-
+  ];
   nuevo: Personaje = {
-    nombre: 'Krillin',
+    nombre : 'Maestro Roshi',
     poder: 1000
   }
-
-
-
-  agregar(){ 
-    if(this.nuevo.nombre.trim().length === 0){
-    return;
-    }
   
-
-   this.personajes.push(this.nuevo);
-   this.nuevo = {
-     nombre:  '',
-     poder:  0
-   }
-   
-  }
-
-
-  // cambiarNombre(event: any){
-  //   console.log(event)
-  // }
+  
 }
